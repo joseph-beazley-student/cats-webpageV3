@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("images/Cat_Background.jpg"); /* https://www.thesprucepets.com/thmb/DlrON00OGChDjV0JD5twLZTs1LI=/3000x0/filters:no_upscale():strip_icc()/pushy-cat-behavior-554063-hero-61d95710aacf45369539d5e22135714a.jpg */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center calc(100vh - 1000px);
+}
+
+header {
+    background-color: #00ffff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto 0; 
+    background-color: #00ffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #00ffff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: -350px; 
+    width: 100%;
+}
+#successMessage {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #0ff;
+    color: #fff;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px; 
+    width: 80%; 
+    max-width: 400px; 
+    font-size: 20px;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#successMessage p:first-child {
+    color: black;
+}
+
+#successMessage img {
+    width: 165px;
+    height: 165px;
+}
+
+#contactUs {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #0ff;
+    color: #fff;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px; 
+    width: 80%; 
+    max-width: 400px; 
+    font-size: 20px;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#process {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #0ff;
+    color: #000; 
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #contactUs, #process {
+        margin-bottom: 100px !important; 
+    }
+    body {
+        background-position: center !important; 
+    }
+    footer {
+        position: relative; 
+        margin-top: 50px; 
+        bottom: initial; 
+    }
+}

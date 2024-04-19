@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Prices</title>
+    <link rel="stylesheet" href="fourthWebpage.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home Page</a>
+        <a href="secondWebpage.html">Adoption Process</a>
+        <a href="thirdWebpage.html">Cats To Adopt</a>
+      </nav>
+    
+      <header>
+          <h1>Cats And Their Prices</h1>
+      </header>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Your annual income</th>
+            <th>Cost of cats</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>$0 - $9,999</td>
+            <td>Leave. Now.</td>
+          </tr>
+          <tr>
+            <td>$10,000 - 29,999</td>
+            <td>$2000</td>
+          </tr>
+          <tr>
+            <td>$30,000 - $49,999$</td>
+            <td>$4000</td>
+          </tr>
+          <tr>
+            <td>$50,000 - $79,999</td>
+            <td>$8000</td>
+          </tr>
+          <tr>
+            <td>$80,000 - $99,999</td>
+            <td>$12000</td>
+          </tr>
+          <tr>
+            <td>$100,000+</td>
+            <td>A third of your mortgage</td>
+          </tr>
+        </tbody>
+      </table>
+
+    <main>
+
+        <div class="centered">
+            <section class="cards">
+                <article class="card">
+                    <img src="images/Cat1.webp" alt="Cat 1"> <!-- https://www.scientificamerican.com/article/cats-recognize-their-own-names-even-if-they-choose-to-ignore-them/ -->
+                    <div class="text-section">
+                        <h2>The Annoyed One</h2>
+                        <p>Depending on where you live, see chart</p>
+                    </div>
+                </article>
+        
+                <article class="card">
+                    <img src="images/cat2.avif" alt="Cat 2"> <!-- https://www.nationalgeographic.com/premium/article/cats-facial-expressions-pets-behavior -->
+                    <div class="text-section">
+                        <h2>The Stupid One</h2>
+                        <p>Honestly $0 CAD at this point I just want to be rid of it</p>
+                    </div>
+                </article>
+        
+                <article class="card">
+                    <img src="images/cat3.avif" alt="Cat 3"> <!-- https://theconversation.com/the-curious-character-of-cats-and-whether-they-are-really-more-aloof-75512 -->
+                    <div class="text-section">
+                        <h2>The Depressed One</h2>
+                        <p>I'll pay you to take it, its hurting my mood</p>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <h2 class="section-title">More Propaganda If You Don't Plan To Buy</h2>
+    <p class="subtext">I'm desperately broke</p>
+
+
+
+          <div class="container">
+            <img src="images/84413318-vertical-photo-of-few-weeks-old-kitten-the-cat-has-white-fur-with-tabby-spots-on-head-and-back.jpg" class="left-image"> <!-- https://www.123rf.com/photo_84413318_vertical-photo-of-few-weeks-old-kitten-the-cat-has-white-fur-with-tabby-spots-on-head-and-back.html -->
+            
+            <div class="centered">
+                <section class="gif-section">
+                    <div class="gif-column left-column">
+                      <img src="images/ssstwitter.com_1708778938206-ezgif.com-video-to-gif-converter.gif" alt="Cat GIF 1"> <!-- I made this one-->
+                      <img src="images/plink-cat-plink.gif" alt="Cat GIF 2"> <!-- https://justacat.lol/ -->
+                      <img src="images/cat-snore.gif" alt="Cat GIF 3"> <!-- https://twitter.com/txtgws/status/1464222712600035330 -->
+                    </div>
+                    <div class="gif-column right-column">
+                      <img src="images/tole-cat.gif" alt="Cat GIF 4"> <!-- https://www.instagram.com/reel/C5fVkfUre2_/ -->
+                      <img src="images/cat-paw.gif" alt="Cat GIF 5"> <!-- https://tenor.com/view/cat-paw-stomp-jump-on-gif-15745172 -->
+                      <img src="images/speed-2-1.gif" alt="Cat GIF 6"> <!-- https://tenor.com/view/cat-get-jiggy-with-it-gif-2261634115034430687 -->
+                    </div>
+                  </section>
+            </div>
+            
+            <img src="images/117300843-cute-ginger-cat-sitting-and-licking-lips-vertical-image-isolated-on-white-background.jpg" class="right-image"> <!-- https://www.123rf.com/photo_117300843_cute-ginger-cat-sitting-and-licking-lips-vertical-image-isolated-on-white-background.html -->
+          </div>
+
+          <form id="paymentForm" onsubmit="return processPayment()">
+            <label for="creditCardNumber">Credit Card Number:</label>
+            <input type="text" id="creditCardNumber" name="creditCardNumber" required><br>
+            
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required><br>
+            
+            <label for="expirationDate">Expiration Date:</label>
+            <input type="text" id="expirationDate" name="expirationDate" required><br>
+            
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required><br>
+            
+            <input type="submit" value="Process Payment">
+        </form>
+        
+        <div id="paymentSuccessMessage" style="display: none;">
+            <p>Payment successful!</p>
+        </div>
+
+    <footer>
+        <p> This is my TedTalk about cats.</p>
+      </footer>
+
+</body>
+</html>
